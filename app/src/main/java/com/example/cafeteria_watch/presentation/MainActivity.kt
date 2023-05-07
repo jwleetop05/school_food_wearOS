@@ -119,7 +119,6 @@ fun toDayAndNextDayCafeteria(lifecycleCoroutineScope: LifecycleCoroutineScope) {
                                         if (TrueHead != null) {
                                             val headType = TrueHead.code.split('-')[0]
                                             val headCode = TrueHead.code.split('-')[1]
-                                            Log.d("헤드 타입, 코드", "$headType / $headCode")
                                             when (headType) {
                                                 "INFO" -> when (headCode) {
                                                     "000" -> {
